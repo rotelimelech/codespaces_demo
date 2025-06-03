@@ -1,0 +1,19 @@
+{
+  "name": "image-slider-website",
+  "version": "1.0.0",
+  "description": "A simple image slider to display defocused images based on selected values.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "image",
+    "slider",
+    "defocus"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const slider = document.getElementById('defocus-slider');
-    const imageDisplay = document.getElementById('image-display');
+    const imageDisplay = document.getElementById('slider-image');
 
     slider.addEventListener('input', function() {
         const defocusValue = slider.value;

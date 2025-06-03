@@ -2,7 +2,7 @@
 // It handles the slider input, updates the displayed image based on the selected defocus value, 
 // and manages any necessary event listeners.
 
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
     const slider = document.getElementById('defocus-slider');
     const imageDisplay = document.getElementById('slider-image');
 
@@ -18,4 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize the slider with the default value
     updateImage(slider.value);
-});
+// });

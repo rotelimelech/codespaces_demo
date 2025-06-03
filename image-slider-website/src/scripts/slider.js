@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function updateImage(defocusValue) {
-        const imagePath = `image-slider-website/src/light_off_defocused_${defocusValue}.png`;
+        const imagePath = `./light_off_defocused_${defocusValue}.png`;
         imageDisplay.src = imagePath;
     }
 
